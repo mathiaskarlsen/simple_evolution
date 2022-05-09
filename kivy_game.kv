@@ -1,0 +1,53 @@
+<Bomb>:
+    text: ""
+    background_color: self.color
+    canvas.before:
+        Color:
+            rgba: self.color
+        Rectangle:
+            size: self.size
+            pos: self.pos
+<Player@Label>:
+    text: "yoooo"
+    text_size: 32, 48
+    font_size: 12
+    outline_color: (0, 0, 0, 1)
+    outline_width: 1
+    background_color: self.color
+    canvas.before:
+        Color:
+            rgba: self.color
+        Rectangle:
+            size: self.size
+            pos: self.pos
+<Food>:
+    text: ""
+    background_color: self.color
+    canvas.before:
+        Color:
+            rgba: self.color
+        Rectangle:
+            size: self.size
+            pos: self.pos
+<MyLayout>
+    FloatLayout:
+        id: FL
+        
+        
+        
+        
+        
+        
+        
+#        Player:
+ #           size_hint: None, None
+  #          id: P1
+   #         size: 30, 30
+    #        pos: root.width/2-self.width/2, root.height/2-self.height/2
+     #       background_color: (35/255, 35/255, 35/255, 1)
+      #      canvas.before:
+       #         Color:
+        #            rgba: self.background_color
+         #       Rectangle:
+          #          size: self.size
+           #         pos: self.pos
